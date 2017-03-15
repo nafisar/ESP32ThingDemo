@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7882BD6F1E7939FD009080EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BD6E1E7939FD009080EA /* AppDelegate.swift */; };
+		7882BD711E7939FD009080EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BD701E7939FD009080EA /* ViewController.swift */; };
+		7882BD741E7939FD009080EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7882BD721E7939FD009080EA /* Main.storyboard */; };
+		7882BD761E7939FD009080EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7882BD751E7939FD009080EA /* Assets.xcassets */; };
+		7882BD791E7939FD009080EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7882BD771E7939FD009080EA /* LaunchScreen.storyboard */; };
+		7882BD841E7939FE009080EA /* ESP32ThingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BD831E7939FE009080EA /* ESP32ThingDemoTests.swift */; };
+		7882BD8F1E7939FE009080EA /* ESP32ThingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BD8E1E7939FE009080EA /* ESP32ThingDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7882BD801E7939FE009080EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7882BD631E7939FD009080EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7882BD6A1E7939FD009080EA;
+			remoteInfo = ESP32ThingDemo;
+		};
+		7882BD8B1E7939FE009080EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7882BD631E7939FD009080EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7882BD6A1E7939FD009080EA;
+			remoteInfo = ESP32ThingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7882BD6B1E7939FD009080EA /* ESP32ThingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESP32ThingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7882BD6E1E7939FD009080EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7882BD701E7939FD009080EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7882BD731E7939FD009080EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7882BD751E7939FD009080EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7882BD781E7939FD009080EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7882BD7A1E7939FD009080EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7882BD7F1E7939FE009080EA /* ESP32ThingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESP32ThingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7882BD831E7939FE009080EA /* ESP32ThingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32ThingDemoTests.swift; sourceTree = "<group>"; };
+		7882BD851E7939FE009080EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7882BD8A1E7939FE009080EA /* ESP32ThingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESP32ThingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7882BD8E1E7939FE009080EA /* ESP32ThingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32ThingDemoUITests.swift; sourceTree = "<group>"; };
+		7882BD901E7939FE009080EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7882BD681E7939FD009080EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882BD7C1E7939FE009080EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882BD871E7939FE009080EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7882BD621E7939FD009080EA = {
+			isa = PBXGroup;
+			children = (
+				7882BD6D1E7939FD009080EA /* ESP32ThingDemo */,
+				7882BD821E7939FE009080EA /* ESP32ThingDemoTests */,
+				7882BD8D1E7939FE009080EA /* ESP32ThingDemoUITests */,
+				7882BD6C1E7939FD009080EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7882BD6C1E7939FD009080EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7882BD6B1E7939FD009080EA /* ESP32ThingDemo.app */,
+				7882BD7F1E7939FE009080EA /* ESP32ThingDemoTests.xctest */,
+				7882BD8A1E7939FE009080EA /* ESP32ThingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7882BD6D1E7939FD009080EA /* ESP32ThingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7882BD6E1E7939FD009080EA /* AppDelegate.swift */,
+				7882BD701E7939FD009080EA /* ViewController.swift */,
+				7882BD721E7939FD009080EA /* Main.storyboard */,
+				7882BD751E7939FD009080EA /* Assets.xcassets */,
+				7882BD771E7939FD009080EA /* LaunchScreen.storyboard */,
+				7882BD7A1E7939FD009080EA /* Info.plist */,
+			);
+			path = ESP32ThingDemo;
+			sourceTree = "<group>";
+		};
+		7882BD821E7939FE009080EA /* ESP32ThingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7882BD831E7939FE009080EA /* ESP32ThingDemoTests.swift */,
+				7882BD851E7939FE009080EA /* Info.plist */,
+			);
+			path = ESP32ThingDemoTests;
+			sourceTree = "<group>";
+		};
+		7882BD8D1E7939FE009080EA /* ESP32ThingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7882BD8E1E7939FE009080EA /* ESP32ThingDemoUITests.swift */,
+				7882BD901E7939FE009080EA /* Info.plist */,
+			);
+			path = ESP32ThingDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7882BD6A1E7939FD009080EA /* ESP32ThingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7882BD931E7939FE009080EA /* Build configuration list for PBXNativeTarget "ESP32ThingDemo" */;
+			buildPhases = (
+				7882BD671E7939FD009080EA /* Sources */,
+				7882BD681E7939FD009080EA /* Frameworks */,
+				7882BD691E7939FD009080EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESP32ThingDemo;
+			productName = ESP32ThingDemo;
+			productReference = 7882BD6B1E7939FD009080EA /* ESP32ThingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7882BD7E1E7939FE009080EA /* ESP32ThingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7882BD961E7939FE009080EA /* Build configuration list for PBXNativeTarget "ESP32ThingDemoTests" */;
+			buildPhases = (
+				7882BD7B1E7939FE009080EA /* Sources */,
+				7882BD7C1E7939FE009080EA /* Frameworks */,
+				7882BD7D1E7939FE009080EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7882BD811E7939FE009080EA /* PBXTargetDependency */,
+			);
+			name = ESP32ThingDemoTests;
+			productName = ESP32ThingDemoTests;
+			productReference = 7882BD7F1E7939FE009080EA /* ESP32ThingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7882BD891E7939FE009080EA /* ESP32ThingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7882BD991E7939FE009080EA /* Build configuration list for PBXNativeTarget "ESP32ThingDemoUITests" */;
+			buildPhases = (
+				7882BD861E7939FE009080EA /* Sources */,
+				7882BD871E7939FE009080EA /* Frameworks */,
+				7882BD881E7939FE009080EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7882BD8C1E7939FE009080EA /* PBXTargetDependency */,
+			);
+			name = ESP32ThingDemoUITests;
+			productName = ESP32ThingDemoUITests;
+			productReference = 7882BD8A1E7939FE009080EA /* ESP32ThingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7882BD631E7939FD009080EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Nafisa;
+				TargetAttributes = {
+					7882BD6A1E7939FD009080EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 42KMS8LBB5;
+						ProvisioningStyle = Automatic;
+					};
+					7882BD7E1E7939FE009080EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 42KMS8LBB5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7882BD6A1E7939FD009080EA;
+					};
+					7882BD891E7939FE009080EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 42KMS8LBB5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7882BD6A1E7939FD009080EA;
+					};
+				};
+			};
+			buildConfigurationList = 7882BD661E7939FD009080EA /* Build configuration list for PBXProject "ESP32ThingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7882BD621E7939FD009080EA;
+			productRefGroup = 7882BD6C1E7939FD009080EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7882BD6A1E7939FD009080EA /* ESP32ThingDemo */,
+				7882BD7E1E7939FE009080EA /* ESP32ThingDemoTests */,
+				7882BD891E7939FE009080EA /* ESP32ThingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7882BD691E7939FD009080EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7882BD791E7939FD009080EA /* LaunchScreen.storyboard in Resources */,
+				7882BD761E7939FD009080EA /* Assets.xcassets in Resources */,
+				7882BD741E7939FD009080EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882BD7D1E7939FE009080EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882BD881E7939FE009080EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7882BD671E7939FD009080EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7882BD711E7939FD009080EA /* ViewController.swift in Sources */,
+				7882BD6F1E7939FD009080EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882BD7B1E7939FE009080EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7882BD841E7939FE009080EA /* ESP32ThingDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882BD861E7939FE009080EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7882BD8F1E7939FE009080EA /* ESP32ThingDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7882BD811E7939FE009080EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7882BD6A1E7939FD009080EA /* ESP32ThingDemo */;
+			targetProxy = 7882BD801E7939FE009080EA /* PBXContainerItemProxy */;
+		};
+		7882BD8C1E7939FE009080EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7882BD6A1E7939FD009080EA /* ESP32ThingDemo */;
+			targetProxy = 7882BD8B1E7939FE009080EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7882BD721E7939FD009080EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7882BD731E7939FD009080EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7882BD771E7939FD009080EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7882BD781E7939FD009080EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7882BD911E7939FE009080EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7882BD921E7939FE009080EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7882BD941E7939FE009080EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				INFOPLIST_FILE = ESP32ThingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ESP32ThingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7882BD951E7939FE009080EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				INFOPLIST_FILE = ESP32ThingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ESP32ThingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7882BD971E7939FE009080EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				INFOPLIST_FILE = ESP32ThingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ESP32ThingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESP32ThingDemo.app/ESP32ThingDemo";
+			};
+			name = Debug;
+		};
+		7882BD981E7939FE009080EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				INFOPLIST_FILE = ESP32ThingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ESP32ThingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESP32ThingDemo.app/ESP32ThingDemo";
+			};
+			name = Release;
+		};
+		7882BD9A1E7939FE009080EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				INFOPLIST_FILE = ESP32ThingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ESP32ThingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ESP32ThingDemo;
+			};
+			name = Debug;
+		};
+		7882BD9B1E7939FE009080EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				INFOPLIST_FILE = ESP32ThingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.ESP32ThingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ESP32ThingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7882BD661E7939FD009080EA /* Build configuration list for PBXProject "ESP32ThingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7882BD911E7939FE009080EA /* Debug */,
+				7882BD921E7939FE009080EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7882BD931E7939FE009080EA /* Build configuration list for PBXNativeTarget "ESP32ThingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7882BD941E7939FE009080EA /* Debug */,
+				7882BD951E7939FE009080EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7882BD961E7939FE009080EA /* Build configuration list for PBXNativeTarget "ESP32ThingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7882BD971E7939FE009080EA /* Debug */,
+				7882BD981E7939FE009080EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7882BD991E7939FE009080EA /* Build configuration list for PBXNativeTarget "ESP32ThingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7882BD9A1E7939FE009080EA /* Debug */,
+				7882BD9B1E7939FE009080EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7882BD631E7939FD009080EA /* Project object */;
+}
